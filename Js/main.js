@@ -46,7 +46,7 @@ function formatDate(date) {
 
     let year =date.getFullYear();
   
-    return `${day} ${month},${year} ${hours}:${minutes}`;
+    return `${day} ${month} , ${year} ${hours}:${minutes}`;
   }
 
 let dateElement = document.querySelector("#date");
